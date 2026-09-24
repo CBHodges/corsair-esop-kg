@@ -4,6 +4,8 @@ title: "Corsair Components ESOP Plan Knowledge Graph"
 version: "1.1.0"
 date-released: 2026-09-24
 license: CC-BY-NC-4.0
+doi: 10.5281/zenodo.22945451
+repository-code: "https://github.com/CBHodges/corsair-esop-kg"
 authors:
   - family-names: Hodges
     given-names: Craig

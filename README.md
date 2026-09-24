@@ -1,5 +1,7 @@
 # Corsair Components ESOP Plan Knowledge Graph
 
+[![DOI](https://zenodo.org/badge/1385890635.svg)](https://doi.org/10.5281/zenodo.22945451)
+
 A checked knowledge graph of a real, public Employee Stock Ownership Plan. It shows how a legal plan document can become a graph where every rule, term and legal citation is linked and traceable.
 
 Built and maintained by **Craig Hodges**, founder of [GoalC.ai](https://www.goalc.ai/about.html) (ALC, Inc.).
@@ -65,4 +67,11 @@ The graph structure, summaries and rules are [CC BY-NC 4.0](https://creativecomm
 
 ## Cite it
 
-See `CITATION.cff`, or use the "Cite this repository" button on GitHub.
+Archived on Zenodo with a permanent DOI:
+
+- All versions: [10.5281/zenodo.22945451](https://doi.org/10.5281/zenodo.22945451)
+- This version (v1.1.0): [10.5281/zenodo.22945452](https://doi.org/10.5281/zenodo.22945452)
+
+> Hodges, C. (2026). *Corsair Components ESOP Plan Knowledge Graph* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.22945451
+
+See also `CITATION.cff`, or use the "Cite this repository" button on GitHub.
