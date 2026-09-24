@@ -1,0 +1,1583 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "esop": "https://goalc.net/ontology/esop#",
+    "irc": "https://goalc.net/ontology/irc#",
+    "erisa": "https://goalc.net/ontology/erisa#",
+    "valor": "https://goalc.net/ontology/valor#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "esop:hasPart": {
+      "@type": "@id"
+    },
+    "irc:qualifyingSection": {
+      "@type": "@id"
+    },
+    "irc:authority": {
+      "@type": "@id"
+    },
+    "erisa:authority": {
+      "@type": "@id"
+    },
+    "esop:definesTerms": {
+      "@type": "@id"
+    },
+    "provision": {
+      "@type": "@id"
+    },
+    "ircAuthority": {
+      "@type": "@id"
+    },
+    "esop:ERISASection": "esop:ERISASection"
+  },
+  "@id": "esop:CorsairComponents_ESOP_KnowledgeGraph",
+  "@type": "esop:KnowledgeGraph",
+  "name": "Corsair Components ESOP Plan Knowledge Graph",
+  "version": "1.1.0",
+  "lastReviewed": "2026-09-24",
+  "confidence": 0.95,
+  "@graph": [
+    {
+      "@id": "esop:CorsairComponents_ESOP",
+      "@type": "esop:EmployeeStockOwnershipPlan",
+      "name": "Corsair Components, Inc. Employee Stock Ownership Plan",
+      "esop:exhibit": "EX-10.20",
+      "esop:filingRef": "d52593dex1020",
+      "esop:company": "Corsair Components, Inc.",
+      "esop:state": "Delaware",
+      "esop:originalEffectiveDate": "2002-01-01",
+      "esop:priorRestatementDate": "2006-01-01",
+      "esop:currentRestatementDate": "2011-01-01",
+      "esop:executionDate": "2012-04-02",
+      "esop:planType": [
+        "esop:ESOP",
+        "esop:StockBonusPlan"
+      ],
+      "esop:normalRetirementAge": 60,
+      "esop:anniversaryDate": "December 31 each year",
+      "esop:governingLaw": "Delaware (to extent not superseded by ERISA)",
+      "irc:qualifyingSection": [
+        "irc:4975_e_7",
+        "irc:401_a"
+      ],
+      "esop:regulatoryBasis": [
+        "PPA 2006",
+        "Final §415 Regulations",
+        "HEART 2008",
+        "WRERA 2008"
+      ],
+      "esop:trustees": [
+        "Andrew J. Paul",
+        "Nicholas B. Hawkins",
+        "Frederick M. Gonzalez"
+      ],
+      "esop:hasPart": [
+        "esop:Section_1",
+        "esop:Section_2",
+        "esop:Section_3",
+        "esop:Section_4",
+        "esop:Section_5",
+        "esop:Section_6",
+        "esop:Section_7",
+        "esop:Section_8",
+        "esop:Section_9",
+        "esop:Section_10",
+        "esop:Section_11",
+        "esop:Section_12",
+        "esop:Section_13",
+        "esop:Section_14",
+        "esop:Section_15",
+        "esop:Section_16",
+        "esop:Section_17",
+        "esop:Section_18",
+        "esop:Section_19",
+        "esop:Section_20",
+        "esop:Section_21",
+        "esop:Section_22"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_1",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "1",
+      "name": "Nature of Plan",
+      "esop:summary": "Establishes plan purpose — employee ownership and capital accumulation. Qualifies as ESOP under IRC §4975(e)(7) and stock bonus plan under IRC §401(a). Second restatement effective January 1, 2011.",
+      "irc:authority": [
+        "irc:4975_e_7",
+        "irc:401_a"
+      ],
+      "erisa:authority": [
+        "erisa:407_d"
+      ],
+      "esop:primaryInvestment": "Employer Securities",
+      "esop:planForBenefit": "Participants and Beneficiaries",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_2",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "2",
+      "name": "Definitions",
+      "esop:summary": "Defines all capitalized terms used throughout the plan.",
+      "esop:definesTerms": [
+        "esop:Term_Account",
+        "esop:Term_AffiliatedCompany",
+        "esop:Term_AlternatePayee",
+        "esop:Term_AnniversaryDate",
+        "esop:Term_AnnualAdditions",
+        "esop:Term_Beneficiary",
+        "esop:Term_BreakInService",
+        "esop:Term_Code",
+        "esop:Term_Committee",
+        "esop:Term_Company",
+        "esop:Term_CompanyStock",
+        "esop:Term_CompanyStockAccount",
+        "esop:Term_Contributions",
+        "esop:Term_CoveredCompensation",
+        "esop:Term_NormalRetirementAge",
+        "esop:Term_QualifiedEmployerSecurities",
+        "esop:Term_SuspenseAccount",
+        "esop:Term_YearsOfService"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_Account",
+      "@type": "esop:DefinedTerm",
+      "name": "Account",
+      "esop:definition": "One of several Accounts maintained to record the interest of a Participant in the Plan.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_AffiliatedCompany",
+      "@type": "esop:DefinedTerm",
+      "name": "AffiliatedCompany",
+      "esop:definition": "Any employer in a controlled group (IRC §414(b)), common control (§414(c)), affiliated service group (§414(m)), or aggregated under §414(o).",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_AnniversaryDate",
+      "@type": "esop:DefinedTerm",
+      "name": "AnniversaryDate",
+      "esop:definition": "December 31 of each year. The Plan Year end date used for valuations and allocations.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_AnnualAdditions",
+      "@type": "esop:DefinedTerm",
+      "name": "AnnualAdditions",
+      "esop:definition": "Aggregate of Contributions, Forfeitures, and voluntary contributions credited to Participant Accounts each Limitation Year. Excludes restored forfeitures and rollovers.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_BreakInService",
+      "@type": "esop:DefinedTerm",
+      "name": "BreakInService",
+      "esop:definition": "A Plan Year in which a Participant completes no more than 500 Hours of Service.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_CompanyStock",
+      "@type": "esop:DefinedTerm",
+      "name": "CompanyStock",
+      "esop:definition": "Shares of common stock issued by the Company or Affiliated Company meeting ERISA §407(d) and IRC §409(l).",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_CoveredCompensation",
+      "@type": "esop:DefinedTerm",
+      "name": "CoveredCompensation",
+      "esop:definition": "Total Compensation including 401(k)/125 deferrals; excludes expense allowances, fringe benefits, moving expenses, welfare benefits, and deferred comp (except 401k/125). Effective 2009 includes differential wage payments (HEART '08).",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_NormalRetirementAge",
+      "@type": "esop:DefinedTerm",
+      "name": "NormalRetirementAge",
+      "esop:definition": "The date on which a Participant attains age sixty (60).",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95,
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm"
+    },
+    {
+      "@id": "esop:Term_SuspenseAccount",
+      "@type": "esop:DefinedTerm",
+      "name": "SuspenseAccount",
+      "esop:definition": "Account holding unallocated Employer Securities acquired via Securities Acquisition Loan, released as loan is repaid.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_YearsOfService",
+      "@type": "esop:DefinedTerm",
+      "name": "YearsOfService",
+      "esop:definition": "Computed for vesting per IRC §411 rules.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_3",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "3",
+      "name": "Eligibility",
+      "esop:summary": "Governs which employees may participate in the Plan.",
+      "irc:authority": [
+        "irc:410"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_4",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "4",
+      "name": "Participation in Allocation of Benefits",
+      "esop:subsections": [
+        "4a Participation",
+        "4b Leave of Absence",
+        "4c Omission of Eligible Employee",
+        "4d Inclusion of Ineligible Employee",
+        "4e Uniformed Services Participants",
+        "4f Suspended Participation"
+      ],
+      "esop:summary": "Defines participation rules, leave of absence treatment, USERRA rights, and suspended participation.",
+      "irc:authority": [
+        "irc:414_u"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_5",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "5",
+      "name": "Contributions",
+      "esop:subsections": [
+        "5a Amount",
+        "5b Timing",
+        "5c Form"
+      ],
+      "esop:contributionType": "Employer discretionary",
+      "esop:summary": "Employer contributions are discretionary and deductible under IRC §404(a)(3) and §404(a)(9). Contributions may be made in cash or Employer Securities.",
+      "irc:authority": [
+        "irc:404_a_3",
+        "irc:404_a_9"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_6",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "6",
+      "name": "Investment of Trust Assets",
+      "esop:subsections": [
+        "6a Authorized Investments",
+        "6b Investment Duties",
+        "6c Plan Loans",
+        "6d Nonrecognition of Gain"
+      ],
+      "esop:summary": "Governs leveraged loan (Securities Acquisition Loan) mechanics and §1042 rollover election for seller nonrecognition of gain.",
+      "irc:authority": [
+        "irc:4975_d_3",
+        "irc:1042"
+      ],
+      "esop:loanStructure": "Securities Acquisition Loan — leveraged ESOP",
+      "esop:1042Rollover": {
+        "@id": "esop:Rule_1042Rollover",
+        "@type": "esop:TaxRule",
+        "name": "§1042 Nonrecognition of Gain",
+        "esop:summary": "Seller may elect to defer capital gains tax by reinvesting in Qualified Replacement Property within 12 months. Nonallocation period: 10 years or final loan payment date (later).",
+        "esop:nonallocationPeriod": "10 years from sale date OR date of final SAL payment, whichever is later",
+        "esop:restrictedPersons": "Seller, seller's family, and persons owning >25% of any class of Company Stock",
+        "esop:linealDescendantException": "Up to 5% of purchased shares may be allocated to lineal descendants",
+        "irc:authority": [
+          "irc:1042"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_7",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "7",
+      "name": "Allocations to Accounts",
+      "esop:subsections": [
+        "7a Individual Accounts",
+        "7b Company Stock Account",
+        "7c Other Investments Account"
+      ],
+      "esop:summary": "Governs share release from Suspense Account on loan repayment. Two release methods: General Rule (principal+interest fraction) and Special Rule (principal-only fraction, max 10 years).",
+      "esop:shareReleaseMethods": [
+        {
+          "@id": "esop:Rule_ShareRelease_General",
+          "@type": "esop:AllocationRule",
+          "name": "General Rule — Share Release",
+          "esop:formula": "Shares Released = Suspense Shares × (Principal+Interest Paid / (Principal+Interest Paid + Future Principal+Interest))",
+          "esop:trigger": "Each Plan Year for duration of SAL",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        {
+          "@id": "esop:Rule_ShareRelease_Special",
+          "@type": "esop:AllocationRule",
+          "name": "Special Rule — Share Release (Principal Only)",
+          "esop:formula": "Shares Released = Suspense Shares × (Principal Paid / (Principal Paid + Future Principal))",
+          "esop:conditions": [
+            "Loan provides level payments ≥10 years",
+            "Interest disregarded per standard amortization tables",
+            "Total loan duration including renewals ≤10 years"
+          ],
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        }
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_8",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "8",
+      "name": "Expenses of the Plan and Trust",
+      "esop:summary": "Company pays design/establishment/termination expenses. Trust pays administration costs unless Company pays them.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_9",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "9",
+      "name": "Voting Company Stock",
+      "esop:summary": "Trustee votes per Committee instructions. Participants direct voting on major corporate events (merger, consolidation, recapitalization, liquidation, sale of substantially all assets). Unallocated shares voted by Trustee per Committee.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_10",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "10",
+      "name": "Disclosure to Participants",
+      "esop:subsections": [
+        "10a Summary Plan Description",
+        "10b Summary Annual Report",
+        "10c Annual Statement",
+        "10d Notice of Rollover Treatment",
+        "10e Additional Disclosure"
+      ],
+      "esop:summary": "Requires annual account statements showing prior balance, allocations, income/expense adjustments, new balances, shares, and vesting percentage.",
+      "erisa:authority": [
+        "erisa:102_a_1",
+        "erisa:104_b_1",
+        "erisa:104_b_3"
+      ],
+      "irc:authority": [
+        "irc:402_c",
+        "irc:401_a_31"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_11",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "11",
+      "name": "Allocation of Contributions and Forfeitures",
+      "esop:subsections": [
+        "11a Allocation Formula",
+        "11b Allocation Limitations"
+      ],
+      "esop:summary": "Allocations made pro-rata by Covered Compensation. Annual Additions cap: lesser of $49,000 (inflation-adjusted) or 100% of Total Compensation. Interest payments on SAL excluded from Annual Additions if ≤1/3 of Contributions go to HCEs.",
+      "irc:authority": [
+        "irc:401_a_4",
+        "irc:415_c",
+        "irc:404_a_9"
+      ],
+      "esop:allocationFormula": {
+        "@id": "esop:Rule_AllocationFormula",
+        "@type": "esop:AllocationRule",
+        "name": "Pro-Rata Compensation Allocation",
+        "esop:formula": "Participant Allocation = (Participant Covered Comp / Total Covered Comp of All Participants) × Total Contributions + Forfeitures Released",
+        "irc:authority": [
+          "irc:401_a_4"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:annualAdditionsCap": {
+        "@id": "esop:Rule_415Cap",
+        "@type": "esop:LimitationRule",
+        "name": "§415 Annual Additions Limit",
+        "esop:limitAmount": 49000,
+        "esop:limitNote": "Adjusted for cost-of-living per IRC §415(d); current limit $69,000 for 2024",
+        "esop:alternateLimit": "100% of Participant Total Compensation",
+        "esop:applicableRule": "Lesser of dollar limit or compensation limit",
+        "irc:authority": [
+          "irc:415_c"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_12",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "12",
+      "name": "Determination of Plan Benefits",
+      "esop:subsections": [
+        "12a Full Vesting Events",
+        "12b Military Service"
+      ],
+      "esop:summary": "Death, disability, or attainment of Normal Retirement Age (60) → 100% vested regardless of years of service. Military service per IRC §414(u).",
+      "irc:authority": [
+        "irc:411",
+        "irc:414_u"
+      ],
+      "esop:fullVestingTriggers": [
+        "Death while employed",
+        "Disability while employed",
+        "Attainment of Normal Retirement Age (60)"
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_13",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "13",
+      "name": "Termination of Service Prior to Retirement, and Forfeitures",
+      "esop:subsections": [
+        "13a Vesting Schedule",
+        "13b Vesting Upon Reemployment",
+        "13c Forfeitures",
+        "13d Cash-Out Distribution"
+      ],
+      "irc:authority": [
+        "irc:411_a_1"
+      ],
+      "esop:vestingSchedule": {
+        "@id": "esop:VestingSchedule_PostPPA06",
+        "@type": "esop:VestingSchedule",
+        "name": "Post-PPA 06 Graded Vesting Schedule — §13(a)",
+        "esop:effectiveDate": "2007-01-01",
+        "esop:basis": "PPA 2006 amendment; applies to any Participant with at least one Hour of Service on or after January 1, 2007",
+        "esop:priorSchedule": {
+          "@id": "esop:VestingSchedule_PrePPA06",
+          "@type": "esop:VestingSchedule",
+          "name": "Pre-PPA 06 Schedule (Superseded)",
+          "esop:brackets": [
+            {
+              "yos": "< 3",
+              "vestedPct": 0
+            },
+            {
+              "yos": "3",
+              "vestedPct": 20
+            },
+            {
+              "yos": "4",
+              "vestedPct": 40
+            },
+            {
+              "yos": "5",
+              "vestedPct": 60
+            },
+            {
+              "yos": "6",
+              "vestedPct": 80
+            },
+            {
+              "yos": "≥ 7",
+              "vestedPct": 100
+            }
+          ],
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        "esop:brackets": [
+          {
+            "yos": "< 2",
+            "vestedPct": 0
+          },
+          {
+            "yos": "2",
+            "vestedPct": 20
+          },
+          {
+            "yos": "3",
+            "vestedPct": 40
+          },
+          {
+            "yos": "4",
+            "vestedPct": 60
+          },
+          {
+            "yos": "5",
+            "vestedPct": 80
+          },
+          {
+            "yos": "≥ 6",
+            "vestedPct": 100
+          }
+        ],
+        "esop:formula": "Vested Amount = Account Balance × Vesting %",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:forfeitureRules": {
+        "@id": "esop:Rule_Forfeitures",
+        "@type": "esop:ForfeitureRule",
+        "name": "Forfeiture Disposition — §13(c)",
+        "esop:chargeSequence": [
+          "1. Other Investments Account",
+          "2. Company Stock not acquired with SAL proceeds",
+          "3. Company Stock acquired with SAL proceeds"
+        ],
+        "esop:triggerEvents": [
+          "5 consecutive one-year Breaks in Service (no cash-out)",
+          "Receipt of cash-out distribution"
+        ],
+        "esop:restorationSources": [
+          "Current-year Forfeitures",
+          "Current-year Trust earnings",
+          "Current-year Contributions",
+          "Employer contribution if insufficient"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:cashOutDistribution": {
+        "@id": "esop:Rule_CashOut",
+        "@type": "esop:DistributionRule",
+        "name": "Cash-Out Distribution — §13(d)",
+        "esop:definition": "Distribution of entire vested portion of Participant Accounts before 5 consecutive one-year Breaks in Service",
+        "esop:restorationEligibility": "Participant may restore forfeited amounts by repaying full cash-out amount before 5 consecutive Breaks in Service AND before 5th anniversary of reemployment",
+        "esop:zeroVestedTreatment": "0% vested Participant deemed to have received cash-out on separation date",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:reemploymentVesting": {
+        "@id": "esop:Rule_ReemploymentVesting",
+        "@type": "esop:VestingRule",
+        "name": "Vesting Upon Reemployment — §13(b)",
+        "esop:preBreakRuleAfter5Years": "Pre-break service not counted for prebreak account vesting if 5+ consecutive Breaks in Service occurred",
+        "esop:partiallyVestedReemployment": "Pre-break service credited for postbreak account vesting if Participant had any vested interest at time of break",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_14",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "14",
+      "name": "Distribution of Plan Benefit",
+      "esop:subsections": [
+        "14a Death/Disability/Retirement",
+        "14b Other Termination",
+        "14c Death Prior to Completion",
+        "14d Valuation Date",
+        "14e Consent and Notice",
+        "14f Required Commencement",
+        "14g Undistributed Accounts",
+        "14h Eligible Rollover",
+        "14i Lien on Distribution"
+      ],
+      "irc:authority": [
+        "irc:409_o",
+        "irc:411_a_11",
+        "irc:401_a_9",
+        "irc:402_c",
+        "irc:401_a_31",
+        "irc:401_a_28_C"
+      ],
+      "esop:distributionTriggers": {
+        "@id": "esop:Rule_Distribution_Retirement",
+        "@type": "esop:DistributionRule",
+        "name": "Distribution — Death, Disability, Retirement — §14(a)",
+        "esop:commencementDeadline": "Within 1 year after close of Plan Year in which event occurs",
+        "esop:largeAccountRule": "Balance > $5,000: substantially equal annual installments over 5 years; period extended 1 year per $195,000 (fraction) above $985,000 threshold (COL-adjusted)",
+        "esop:smallAccountRule": "Balance ≤ $5,000: lump sum distribution",
+        "irc:authority": [
+          "irc:409_o"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:otherTerminationDistribution": {
+        "@id": "esop:Rule_Distribution_OtherTermination",
+        "@type": "esop:DistributionRule",
+        "name": "Distribution — Other Termination — §14(b)",
+        "esop:commencementDeadline": "Commence in 6th Plan Year following year of termination (if not reemployed by end of 5th Plan Year)",
+        "esop:largeAccountRule": "Balance > $5,000: 5 equal annual installments",
+        "esop:smallAccountRule": "Balance ≤ $5,000: lump sum ASAP after Plan Year close",
+        "esop:loanConstraint": "Employer Securities acquired with SAL proceeds not required to be distributed until close of Plan Year SAL is fully repaid",
+        "irc:authority": [
+          "irc:409_o",
+          "irc:411_a_11"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:valuationDateRule": {
+        "@id": "esop:Rule_ValuationDate",
+        "@type": "esop:ValuationRule",
+        "name": "Valuation Date — §14(d)",
+        "esop:summary": "Accounts valued as of appropriate Valuation Date. Company Stock valued by Independent Appraiser per IRC §401(a)(28).",
+        "irc:authority": [
+          "irc:401_a_28"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:consentThreshold": {
+        "@id": "esop:Rule_ConsentRequirement",
+        "@type": "esop:ConsentRule",
+        "name": "Consent and Notice — §14(e)",
+        "esop:consentRequired": "Written Participant consent required if nonforfeitable balance > $1,000 and distribution prior to age 62 or Normal Retirement Age",
+        "esop:noticeWindow": "30–180 days before distribution date",
+        "irc:authority": [
+          "irc:411_a_11"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:rmdRules": {
+        "@id": "esop:Rule_RMD",
+        "@type": "esop:DistributionRule",
+        "name": "Required Minimum Distribution — §14(f)",
+        "esop:commencementDeadline": "April 1 following the later of: (1) year in which Participant attains age 70½, or (2) year of separation from service",
+        "esop:fivePercentOwnerRule": "5% owners must begin RMD by April 1 following year of attaining age 70½ regardless of separation",
+        "irc:authority": [
+          "irc:401_a_9"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_15",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "15",
+      "name": "How Plan Benefit Will Be Distributed",
+      "esop:subsections": [
+        "15a Form of Distribution",
+        "15b Beneficiaries",
+        "15c Location Unknown",
+        "15d Facility of Payment"
+      ],
+      "irc:authority": [
+        "irc:409_h"
+      ],
+      "esop:formOfDistribution": {
+        "@id": "esop:Rule_FormOfDistribution",
+        "@type": "esop:DistributionRule",
+        "name": "Form of Distribution — §15(a)",
+        "esop:options": [
+          "Cash",
+          "Employer Securities (whole shares; fractional value in cash)",
+          "Combination"
+        ],
+        "esop:participantRight": "Participant has right to demand distribution in Employer Securities",
+        "esop:cashOnlyException": "If Company charter/bylaws restrict stock ownership to employees or qualified plan trust, OR if Company is S corporation — cash only; no demand right for stock",
+        "esop:fmvBasis": "Fair market value per Independent Appraiser as of Anniversary Date immediately preceding purchase date",
+        "esop:installmentOption": "Up to 5 equal annual installments with adequate security and reasonable interest",
+        "esop:paymentDeadline": "Payment must commence within 30 days of purchase notification",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:beneficiaryRules": {
+        "@id": "esop:Rule_Beneficiary",
+        "@type": "esop:BeneficiaryRule",
+        "name": "Beneficiary Designation — §15(b)",
+        "esop:spouseConsent": "Married Participant must obtain written spousal consent to name non-spouse as primary beneficiary; witnessed by Plan representative or notary",
+        "esop:divorceEffect": "Divorce negates former spouse as beneficiary unless Participant re-designates",
+        "esop:defaultBeneficiary": "Surviving spouse; if none or spouse predeceases, then estate",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:missingParticipantProcedure": {
+        "@id": "esop:Rule_MissingParticipant",
+        "@type": "esop:AdministrativeRule",
+        "name": "Missing Participant — §15(c)",
+        "esop:searchMethods": [
+          "Certified mail",
+          "Check related plan records",
+          "Check with designated beneficiary",
+          "IRS or SSA letter-forwarding service"
+        ],
+        "esop:forfeitureCondition": "Forfeiture after all 4 methods exhausted; not before close of 60th day after IRS/SSA letter submitted",
+        "esop:reinstatementRight": "Written claim reinstated from: (1) current Forfeitures, (2) current Trust earnings, (3) current Contributions, (4) Employer contribution",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_16",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "16",
+      "name": "Rights and Options for Distributed Shares of Company Stock",
+      "esop:subsections": [
+        "16a Put Option",
+        "16b Right of First Refusal",
+        "16c Other Options"
+      ],
+      "irc:authority": [
+        "irc:409_h"
+      ],
+      "esop:putOption": {
+        "@id": "esop:Rule_PutOption",
+        "@type": "esop:PutOptionRule",
+        "name": "Put Option — §16(a) / IRC §409(h)",
+        "esop:trigger": "Distribution in form of Company Stock where stock is not immediately repurchased",
+        "esop:eligibleHolders": "Participant, Beneficiary, or any party who received shares by gift or death (Qualified Holder)",
+        "esop:window1": {
+          "@id": "esop:PutWindow_1",
+          "@type": "esop:ExerciseWindow",
+          "esop:period": "60 days from distribution date",
+          "esop:exerciseMethod": "Written notice to Company",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        "esop:window2": {
+          "@id": "esop:PutWindow_2",
+          "@type": "esop:ExerciseWindow",
+          "esop:period": "Additional 60-day window in the following Plan Year (if Window 1 not exercised)",
+          "esop:exerciseMethod": "Written notice to Company",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        "esop:expirationRule": "If neither window exercised, put option expires and obligation terminates",
+        "esop:fmvBasis": "Fair market value as defined in §15(a) — Independent Appraiser on Anniversary Date",
+        "esop:paymentTerms": {
+          "@id": "esop:PutPaymentTerms",
+          "@type": "esop:PaymentRule",
+          "esop:lumpSumOption": "Single payment within 30 days of put exercise",
+          "esop:installmentOption": "Up to 5 equal annual installments with adequate security and reasonable interest",
+          "esop:commencementDeadline": "Payment must commence within 30 days of put exercise",
+          "esop:installmentDistributionRule": "For installment distributions — payment within 30 days of exercise with respect to each installment",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        "esop:trusteeSubstitution": "Company may permit Trust to assume rights and obligations at time put is exercised",
+        "esop:suspensionRule": "Put exercise period does not include time distributee is legally prohibited from exercising",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_17",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "17",
+      "name": "Special Provisions",
+      "esop:subsections": [
+        "17a Diversification",
+        "17b Cash Dividends"
+      ],
+      "irc:authority": [
+        "irc:401_a_28_B"
+      ],
+      "esop:diversificationRights": {
+        "@id": "esop:Rule_Diversification",
+        "@type": "esop:DiversificationRule",
+        "name": "Diversification Rights — §17(a) / IRC §401(a)(28)(B)",
+        "esop:eligibilityRequirement": "Age 55 AND 10 years of Plan participation (Qualified Participant)",
+        "esop:electionWindow": "90-day period after each of 6 Plan Years following eligibility",
+        "esop:firstElectionMax": "25% of Company Stock Account balance (less amounts previously diversified)",
+        "esop:finalElectionMax": "50% of Company Stock Account balance (less amounts previously diversified)",
+        "esop:finalElectionYear": "6th election year",
+        "irc:authority": [
+          "irc:401_a_28_B"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:dividendRules": {
+        "@id": "esop:Rule_CashDividends",
+        "@type": "esop:DividendRule",
+        "name": "Cash Dividends — §17(b)",
+        "esop:summary": "Cash dividends on Company Stock may be distributed to Participants or used to repay SAL (releasing shares from Suspense Account). Dividend deductibility per IRC §404(k).",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_18",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "18",
+      "name": "Administration",
+      "esop:subsections": [
+        "18a Named Fiduciaries",
+        "18b Investment of Plan Assets",
+        "18c Funding Policy",
+        "18d Claims Procedures",
+        "18e QDROs",
+        "18f Indemnification",
+        "18g Independent Fiduciary",
+        "18h General"
+      ],
+      "esop:summary": "Committee appointed by Board administers the Plan. Named fiduciaries govern investments and control of Plan assets. Claims and appeal procedures included. QDRO procedures per IRC §414(p).",
+      "irc:authority": [
+        "irc:414_p",
+        "irc:401_a_28_C"
+      ],
+      "erisa:authority": [
+        "erisa:fiduciary_standards"
+      ],
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_19",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "19",
+      "name": "Amendment and Termination",
+      "esop:subsections": [
+        "19a Amendment",
+        "19b Code Changes",
+        "19c Termination/Discontinuance",
+        "19d IRS Determination",
+        "19e Return of Contribution"
+      ],
+      "esop:summary": "Company may amend Plan; termination requires participants to be 100% vested. IRS determination letter provisions included. Employer contribution return limited to 1 year from contribution date if disallowed.",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_20",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "20",
+      "name": "Miscellaneous",
+      "esop:subsections": [
+        "20a Affiliated Company Participation",
+        "20b Limitation of Rights",
+        "20c Merger/Transfer",
+        "20d Prohibition Against Assignment",
+        "20e Applicable Law"
+      ],
+      "esop:antiAlienation": "Plan Benefits may not be assigned or alienated; QDRO and Code §401(a)(13) exceptions apply",
+      "esop:mergerProtection": "No merger, consolidation, or transfer unless each Participant's post-event benefit ≥ pre-event benefit (as if plan terminated)",
+      "esop:governingLaw": "ERISA; to extent not superseded, Delaware law; construed to maintain ESOP qualified status",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_21",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "21",
+      "name": "Top-Heavy Rules",
+      "esop:subsections": [
+        "21a Purpose",
+        "21b Top-Heavy Plan",
+        "21c Key Employee",
+        "21d Aggregated Plans",
+        "21e Minimum Vesting",
+        "21f Minimum Contribution",
+        "21g Coordination of Benefits"
+      ],
+      "irc:authority": [
+        "irc:416"
+      ],
+      "esop:topHeavyThreshold": {
+        "@id": "esop:Rule_TopHeavyThreshold",
+        "@type": "esop:TopHeavyRule",
+        "name": "Top-Heavy Test — §21(b)",
+        "esop:threshold": "60% of aggregate account balances attributable to Key Employees",
+        "esop:determinationDate": "Last day of preceding Plan Year (first Plan Year: last day of that Plan Year)",
+        "irc:authority": [
+          "irc:416_g"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:keyEmployeeDefinition": {
+        "@id": "esop:Rule_KeyEmployee",
+        "@type": "esop:KeyEmployeeRule",
+        "name": "Key Employee — §21(c)",
+        "esop:categories": [
+          "Officer with annual comp > $160,000 (IRS-adjusted); max 50 employees (or greater of 3 or 10%)",
+          "5% or greater owner of Employer",
+          "1% or greater owner with annual comp > $150,000"
+        ],
+        "esop:compensationCap": "$245,000 (COL-adjusted per IRC §401(a)(17)(B))",
+        "irc:authority": [
+          "irc:416_i"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:topHeavyVestingSchedule": {
+        "@id": "esop:VestingSchedule_TopHeavy",
+        "@type": "esop:VestingSchedule",
+        "name": "Top-Heavy Minimum Vesting — §21(e)",
+        "esop:note": "Same schedule as Post-PPA06 §13(a) schedule — coincident with current plan vesting",
+        "esop:brackets": [
+          {
+            "yos": "< 2",
+            "vestedPct": 0
+          },
+          {
+            "yos": "2",
+            "vestedPct": 20
+          },
+          {
+            "yos": "3",
+            "vestedPct": 40
+          },
+          {
+            "yos": "4",
+            "vestedPct": 60
+          },
+          {
+            "yos": "5",
+            "vestedPct": 80
+          },
+          {
+            "yos": "≥ 6",
+            "vestedPct": 100
+          }
+        ],
+        "esop:vestedPercentageProtection": "Once top-heavy vesting applies, vested percentage cannot be reduced even if plan ceases to be top-heavy",
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "esop:topHeavyMinimumContribution": {
+        "@id": "esop:Rule_TopHeavyMinContrib",
+        "@type": "esop:ContributionRule",
+        "name": "Minimum Contribution — §21(f)",
+        "esop:minimumRate": "Lesser of: (1) 3% of non-Key Employee compensation, or (2) highest Key Employee contribution percentage",
+        "esop:eligibility": "All non-Key Employee Participants regardless of Hours of Service or compensation level",
+        "irc:authority": [
+          "irc:416_c"
+        ],
+        "version": "1.0.0",
+        "lastReviewed": "2026-05-28",
+        "confidence": 0.95
+      },
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Section_22",
+      "@type": "esop:PlanProvision",
+      "esop:sectionNumber": "22",
+      "name": "Execution",
+      "esop:executionDate": "2012-04-02",
+      "esop:signatories": [
+        {
+          "name": "Andrew J. Paul",
+          "role": "Trustee"
+        },
+        {
+          "name": "Nicholas B. Hawkins",
+          "role": "Trustee"
+        },
+        {
+          "name": "Frederick M. Gonzalez",
+          "role": "Trustee"
+        }
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:CrossReference_WaterfallToPlan",
+      "@type": "esop:CrossReferenceIndex",
+      "name": "Waterfall Cell → Plan Provision Cross-Reference",
+      "esop:mappings": [
+        {
+          "@id": "esop:XRef_VALUATION_B27",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "VALUATION!B27",
+          "label": "Adjusted FMV Per Share",
+          "provision": "esop:Rule_ValuationDate",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:401_a_28"
+        },
+        {
+          "@id": "esop:XRef_LOAN_WATERFALL_B3",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "LOAN WATERFALL!B3",
+          "label": "Annual Loan Payment (PMT)",
+          "provision": "esop:Section_6",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:4975_d_3"
+        },
+        {
+          "@id": "esop:XRef_LOAN_WATERFALL_L6",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "LOAN WATERFALL!L6",
+          "label": "Shares Released Year 1",
+          "provision": "esop:Rule_ShareRelease_General",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        {
+          "@id": "esop:XRef_REPURCHASE_LIABILITY_B20",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "REPURCHASE LIABILITY!B20",
+          "label": "Total Repurchase Obligation",
+          "provision": "esop:Rule_PutOption",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:409_h"
+        },
+        {
+          "@id": "esop:XRef_415_COMPLIANCE_C13",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "§415 COMPLIANCE!C13",
+          "label": "§415 Annual Addition",
+          "provision": "esop:Rule_415Cap",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:415_c"
+        },
+        {
+          "@id": "esop:XRef_21_TOP_HEAVY_D50",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "§21 TOP-HEAVY!D50",
+          "label": "Top-Heavy Key Employee Ratio",
+          "provision": "esop:Rule_TopHeavyThreshold",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:416"
+        },
+        {
+          "@id": "esop:XRef_17a_DIVERSIFICATION_C18",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "§17a DIVERSIFICATION!C18",
+          "label": "Diversification Eligible Amount",
+          "provision": "esop:Rule_Diversification",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:401_a_28_B"
+        },
+        {
+          "@id": "esop:XRef_1042_ROLLOVER_B20",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "§1042 ROLLOVER!B20",
+          "label": "Tax Deferral Amount",
+          "provision": "esop:Rule_1042Rollover",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95,
+          "ircAuthority": "irc:1042"
+        },
+        {
+          "@id": "esop:XRef_INPUTS_B5_B14",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "INPUTS!B5-B14",
+          "label": "Participant Roster",
+          "provision": "esop:VestingSchedule_PostPPA06",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        },
+        {
+          "@id": "esop:XRef_CAP_STRUCTURE_B26",
+          "@type": "esop:CrossReferenceMapping",
+          "cell": "CAP STRUCTURE!B26",
+          "label": "Equity Value to ESOP",
+          "provision": "esop:Rule_FormOfDistribution",
+          "version": "1.0.0",
+          "lastReviewed": "2026-05-28",
+          "confidence": 0.95
+        }
+      ],
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)",
+      "esop:description": "Qualified plan requirements",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_4",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(4)",
+      "esop:description": "Nondiscrimination in contributions and benefits",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_9",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(9)",
+      "esop:description": "Required minimum distributions",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_17_B",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(17)(B)",
+      "esop:description": "Annual compensation limit. The plan states $245,000, adjusted each year for cost of living under this section.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_28_B",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(28)(B)",
+      "esop:description": "Diversification rights — Qualified Participant age 55 + 10 years participation",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_28_C",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(28)(C)",
+      "esop:description": "Independent appraiser requirement. Employer stock that is not readily tradable must be valued by an independent appraiser. The plan applies it in Sections 14(d) and 18.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_31",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(31)",
+      "esop:description": "Direct rollover option",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:402_c",
+      "@type": "esop:IRCSection",
+      "name": "IRC §402(c)",
+      "esop:description": "Rollover distributions",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:404_a_3",
+      "@type": "esop:IRCSection",
+      "name": "IRC §404(a)(3)",
+      "esop:description": "Deductibility of stock bonus plan contributions",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:404_a_9",
+      "@type": "esop:IRCSection",
+      "name": "IRC §404(a)(9)",
+      "esop:description": "Deductibility of ESOP contributions — leveraged ESOP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:409_h",
+      "@type": "esop:IRCSection",
+      "name": "IRC §409(h)",
+      "esop:description": "Put option rights for non-publicly-traded stock",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:409_l",
+      "@type": "esop:IRCSection",
+      "name": "IRC §409(l)",
+      "esop:description": "Definition of employer securities",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:409_o",
+      "@type": "esop:IRCSection",
+      "name": "IRC §409(o)",
+      "esop:description": "Distribution commencement requirements",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:411",
+      "@type": "esop:IRCSection",
+      "name": "IRC §411",
+      "esop:description": "Minimum vesting standards",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:411_a_1",
+      "@type": "esop:IRCSection",
+      "name": "IRC §411(a)(1)",
+      "esop:description": "Graded vesting schedule",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:411_a_11",
+      "@type": "esop:IRCSection",
+      "name": "IRC §411(a)(11)",
+      "esop:description": "Consent requirement for distributions",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:414_p",
+      "@type": "esop:IRCSection",
+      "name": "IRC §414(p)",
+      "esop:description": "Qualified Domestic Relations Orders",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:414_u",
+      "@type": "esop:IRCSection",
+      "name": "IRC §414(u)",
+      "esop:description": "USERRA — military service",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:415_c",
+      "@type": "esop:IRCSection",
+      "name": "IRC §415(c)",
+      "esop:description": "Annual additions limit — defined contribution plans",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:415_d",
+      "@type": "esop:IRCSection",
+      "name": "IRC §415(d)",
+      "esop:description": "Cost-of-living adjustments to §415 limits",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:416",
+      "@type": "esop:IRCSection",
+      "name": "IRC §416",
+      "esop:description": "Top-heavy plan rules",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:416_g",
+      "@type": "esop:IRCSection",
+      "name": "IRC §416(g)",
+      "esop:description": "Definition of top-heavy plan",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:416_i",
+      "@type": "esop:IRCSection",
+      "name": "IRC §416(i)",
+      "esop:description": "Definition of Key Employee",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:1042",
+      "@type": "esop:IRCSection",
+      "name": "IRC §1042",
+      "esop:description": "Nonrecognition of gain on sale of qualified employer securities to ESOP",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:4975_d_3",
+      "@type": "esop:IRCSection",
+      "name": "IRC §4975(d)(3)",
+      "esop:description": "Exemption for ESOP acquisition loans",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:4975_e_7",
+      "@type": "esop:IRCSection",
+      "name": "IRC §4975(e)(7)",
+      "esop:description": "Definition of Employee Stock Ownership Plan",
+      "version": "1.0.0",
+      "lastReviewed": "2026-05-28",
+      "confidence": 0.95
+    },
+    {
+      "@id": "esop:Term_AlternatePayee",
+      "@type": "esop:DefinedTerm",
+      "name": "Alternate Payee",
+      "esop:definition": "A spouse, former spouse, child or other dependent of a Participant who is recognized by a Domestic Relations Order as having a right to receive all or a portion of the benefits otherwise payable to a Participant. See Section 18(e) of the Plan.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_Beneficiary",
+      "@type": "esop:DefinedTerm",
+      "name": "Beneficiary",
+      "esop:definition": "The person or persons entitled to receive any benefits under the Plan in the event of a Participant’s death.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_Code",
+      "@type": "esop:DefinedTerm",
+      "name": "Code",
+      "esop:definition": "The Internal Revenue Code of 1986, as amended from time to time.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_Committee",
+      "@type": "esop:DefinedTerm",
+      "name": "Committee",
+      "esop:definition": "The “Committee”, appointed by the Board of Directors to administer the Plan in accordance with Section 18 of the Plan, including providing direction to the Trustee.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_Company",
+      "@type": "esop:DefinedTerm",
+      "name": "Company",
+      "esop:definition": "Corsair Components, Inc., a Delaware corporation.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_CompanyStockAccount",
+      "@type": "esop:DefinedTerm",
+      "name": "Company Stock Account",
+      "esop:definition": "The Account of a Participant which is credited with the shares of Company Stock purchased and paid for by the Trust or contributed to the Trust.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_Contributions",
+      "@type": "esop:DefinedTerm",
+      "name": "Contributions",
+      "esop:definition": "Employer contributions which are deductible by an Employer under Section 404(a) of the Code.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "esop:Term_QualifiedEmployerSecurities",
+      "@type": "esop:DefinedTerm",
+      "name": "Qualified Employer Securities",
+      "esop:definition": "Employer Securities which are issued by a domestic C corporation that has no securities outstanding that are readily tradable on an established securities market, have been held for at least three (3) years by the seller and were not received by the seller in a distribution from a plan qualified under Section 401(a) or in a transfer pursuant to an option or other right to acquire stock under Section 83, 422, 422A, 423 or 424 of the Code. See Section 6(d) of the Plan.",
+      "esop:sourceSection": "Section 2 (Definitions)",
+      "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 1.0
+    },
+    {
+      "@id": "erisa:102_a_1",
+      "@type": "esop:ERISASection",
+      "name": "ERISA §102(a)(1)",
+      "esop:description": "Summary plan description content requirements. Cited in plan Section 10(a).",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "erisa:104_b_1",
+      "@type": "esop:ERISASection",
+      "name": "ERISA §104(b)(1)",
+      "esop:description": "Furnishing the summary plan description to participants. Cited in plan Section 10(a).",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "erisa:104_b_3",
+      "@type": "esop:ERISASection",
+      "name": "ERISA §104(b)(3)",
+      "esop:description": "Summary annual report furnished to participants. Cited in plan Section 10(b).",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "erisa:407_d",
+      "@type": "esop:ERISASection",
+      "name": "ERISA §407(d)",
+      "esop:description": "Definitions of employer security and qualifying employer security. Cited in the plan definition of Company Stock.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "erisa:fiduciary_standards",
+      "@type": "esop:ERISASection",
+      "name": "ERISA Title I fiduciary standards",
+      "esop:description": "Fiduciary duties under Title I of ERISA, including the prudence and exclusive-benefit duties of ERISA §404.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:401_a_28",
+      "@type": "esop:IRCSection",
+      "name": "IRC §401(a)(28)",
+      "esop:description": "ESOP diversification and independent appraiser requirements. The plan cites it for the Independent Appraiser.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:410",
+      "@type": "esop:IRCSection",
+      "name": "IRC §410",
+      "esop:description": "Minimum participation and coverage standards.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    },
+    {
+      "@id": "irc:416_c",
+      "@type": "esop:IRCSection",
+      "name": "IRC §416(c)",
+      "esop:description": "Top-heavy minimum benefits and contributions. Cited in plan Section 21.",
+      "version": "1.1.0",
+      "lastReviewed": "2026-09-24",
+      "confidence": 0.95
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "isBasedOn": "https://www.sec.gov/Archives/edgar/data/1486183/000119312512186418/d52593dex1020.htm"
+}
