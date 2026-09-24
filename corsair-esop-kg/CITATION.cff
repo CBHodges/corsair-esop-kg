@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this knowledge graph, please cite it as below."
+title: "Corsair Components ESOP Plan Knowledge Graph"
+version: "1.1.0"
+date-released: 2026-09-24
+license: CC-BY-NC-4.0
+authors:
+  - family-names: Hodges
+    given-names: Craig
+    affiliation: "ALC, Inc. (GoalC.ai)"
+    email: craighodges@goalc.ai
+    website: "https://www.goalc.ai/about.html"
+url: "https://www.goalc.ai/kg/corsair-esop/explorer.html"
+keywords:
+  - "knowledge graph"
+  - "ESOP"
+  - "ERISA"
+  - "Internal Revenue Code"
+  - "SHACL"
+  - "JSON-LD"
